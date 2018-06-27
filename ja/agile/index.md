@@ -57,7 +57,8 @@ lang:   ja
             </div>  <!--//col-->  
             
             <div class="col-md-12">
-              <p class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
+{% capture my_include %}{% include agile2.md %}{% endcapture %}
+{{ my_include | markdownify }}
             </div>
                 
         </div><!--//row-->
